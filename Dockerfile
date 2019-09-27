@@ -1,5 +1,5 @@
 FROM tomcat
-RUN mkdir seerat
+
 #RUN mkdir /config
 #COPY config.cfg /config
 
