@@ -18,10 +18,10 @@
 	</licenses>
   	<developers>
     		<developer>
-      			<name>Kulbhushan Mayer</name>
-		        <email>kulbhushan.mayer@thinknyx.com</email>
+      			<name>Chetan Talwar</name>
+		        <email>chetan.talwar@thinknyx.com</email>
 			<organization>thinkyx technologies llp</organization>
-		        <organizationUrl>http://www.simpligility.com</organizationUrl>
+		        <organizationUrl>http://www.thinknyx.com</organizationUrl>
 		</developer>
 	</developers>
  
@@ -51,15 +51,17 @@
 	<!-- Distrbution Management to deploy file in central repository -->
 
 	<distributionManagement>
-        	<repository>
-	                <id>nexus</id>
-	                <url>http://84.39.39.130:8081/nexus/content/repositories/releases/</url>
-	        </repository>
-	        <snapshotRepository>
-                	<id>nexus</id>
-                	<url>http://84.39.39.130:8081/nexus/content/repositories/snapshots</url>
-        	</snapshotRepository>
-	</distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrogdbdemo-artifactory-primary-0-releases</name>
+        <url>https://jfrogdbdemo.jfrog.io/artifactory/DBDemoApp</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrogdbdemo-artifactory-primary-0-snapshots</name>
+        <url>https://jfrogdbdemo.jfrog.io/artifactory/DBDemoApp</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 	<scm>
 		<connection>scm:git:https://kulbhushan_mayer@bitbucket.org/thinknyx/maven_web_application.git</connection>
