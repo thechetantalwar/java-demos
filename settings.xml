@@ -1,7 +1,7 @@
 <settings>
     <profiles>
         <profile>
-            <id>artifactory-plugin-properties</id>
+            <id>central</id>
             <properties>
                 <username>chetan.talwar@gmail.com</username>
                 <password>c61c6b260690dacc54dc091e77608410</password>
@@ -11,6 +11,6 @@
     </profiles>
  
     <activeProfiles>
-        <activeProfile>artifactory-plugin-properties</activeProfile>
+        <activeProfile>central</activeProfile>
     </activeProfiles>
 </settings>
