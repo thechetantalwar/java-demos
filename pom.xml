@@ -18,10 +18,10 @@
 	</licenses>
   	<developers>
     		<developer>
-      			<name>Chetan Talwar</name>
-		        <email>chetan.talwar@thinknyx.com</email>
+      			<name>Kulbhushan Mayer</name>
+		        <email>kulbhushan.mayer@thinknyx.com</email>
 			<organization>thinkyx technologies llp</organization>
-		        <organizationUrl>http://www.thinknyx.com</organizationUrl>
+		        <organizationUrl>http://www.simpligility.com</organizationUrl>
 		</developer>
 	</developers>
  
@@ -62,7 +62,6 @@
         <url>https://jfrogdbdemo.jfrog.io/artifactory/DBDemoApp</url>
     </snapshotRepository>
 </distributionManagement>
-	
 	<scm>
 		<connection>scm:git:https://kulbhushan_mayer@bitbucket.org/thinknyx/maven_web_application.git</connection>
 		<developerConnection>scm:git:[fetch=]https://bitbucket.org/thinknyx/maven_web_application[push=]https://kulbhushan_mayer@bitbucket.org/thinknyx/maven_web_application.git</developerConnection>
@@ -253,7 +252,6 @@
 				        <!--<autoReleaseAfterClose>true</autoReleaseAfterClose>
         			</configuration>
       			</plugin>-->
-			
 		</plugins>
 	</build>
 	
