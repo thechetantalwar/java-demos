@@ -1,16 +1,52 @@
 <settings>
-    <profiles>
-        <profile>
+    <servers>
+
+    <server>
+
+        <id>central</id>
+        <username>chetan.talwar@gmail.com</username>
+        <password>\{DESede\}kFposSPUydYZf89Sy/o4wA==</password>
+
+    </server>
+
+    <server>
+
+        <id>snapshots</id>
+        <username>chetan.talwar@gmail.com</username>
+        <password>\{DESede\}kFposSPUydYZf89Sy/o4wA==</password>
+
+    </server>
+
+</servers>
+
+<profiles>
+
+<profile>
+
+    <repositories>
+
+        <repository>
+
             <id>central</id>
-            <properties>
-                <username>chetan.talwar@gmail.com</username>
-                <password>c61c6b260690dacc54dc091e77608410</password>
-                <artifactoryUrl>https://jfrogdbdemo.jfrog.io</artifactoryUrl>
-            </properties>
-        </profile>
-    </profiles>
- 
-    <activeProfiles>
-        <activeProfile>central</activeProfile>
-    </activeProfiles>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <name>jfrogdbdemo-artifactory-primary-0-releases</name>
+            <url>https://jfrogdbdemo.jfrog.io/artifactory/DBDemoApp</url>
+
+        </repository>
+        <repository>
+
+            <id>snapshots</id>
+            <snapshots />
+            <name>jfrogdbdemo-artifactory-primary-0-snapshots</name>
+            <url>https://jfrogdbdemo.jfrog.io/artifactory/DBDemoApp</url>
+
+        </repository>
+
+    </repositories>
+
+</profile>
+
+</profiles>
 </settings>
