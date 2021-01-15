@@ -1,0 +1,8 @@
+- hosts: lab
+  tasks:
+    - name: deploy war
+      copy:
+        src: target/my-webapp.war
+        dest: /opt/tomcat/apache-tomcat-8.5.29/webapps/
+    - name: restart tomcat
+      shell: cd /opt/tomcat/apache-tomcat-8.5.29/ && nohup bin/catalina.sh stop && nohup bin/catalina.sh start
