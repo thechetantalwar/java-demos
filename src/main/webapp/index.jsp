@@ -1,5 +1,5 @@
 <html>
-<body>
+<body bgcolor="blue">
 <h1>Deployment with Jenkins</h1>
 <h2>Chetan Talwar</h2>
   <h3>That's All for the session Today.<br> Thank you all</h3>
