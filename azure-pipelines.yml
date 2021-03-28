@@ -23,7 +23,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Pay-As-You-Go(312b69f3-480b-46a3-afd6-ae7c053ab0ae)'
+    azureSubscription: 'Pay-As-You-Go(3e)'
     appType: 'webAppLinux'
     WebAppName: 'thinknyxlab'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.war'
